@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+
+}
+.logo{
+    
+width:169.85px;
+height:23px;
+position: relative;
+top:26px;
+}
+.nav-list{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 15%;
+    top: 10px;
+
+}
+.nav-list li{
+    margin-left: 45px;
+    list-style: none;
+    font-size: 18px;
+
+    
+}
+.navigation-bar{
+    width: 1512px;
+    height: 135px;
+    border: 1px black solid;
+    padding: 
+    24px 40px 24px 40px;
+    
+}
+.navigation-bar button{
+    position: relative;
+    left: 61%;
+    bottom:  40px;
+    background-color:#6FC247;
+    color: #FFFFFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: bold;
+    border: none;
+    width: 278px;
+    height: 75px;
+    border-radius: 16px;
+    padding: 24px 40px 24px 40px;
+    
+}
+.heading-text{
+    padding: 35px;
+    text-align: center;
+}
+.heading-text h1{
+    font-size: 64px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.heading-text p{
+    font-size: 24px;
+    line-height: 43.2px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 40px;
+}
+.request-btn{
+    width: 278px;
+Height:75px;
+border-radius:16px ; 
+Padding: 24px 40px 24px 40px;
+border: none;
+font-size: 20px;
+font-style: bold;
+background-color: #6FC247;
+margin-right: 8px;
+position: relative;
+color: white;
+top: 32px;
+
+}
+.sign-btn{
+    width: 278px;
+Height:75px;
+border-radius:16px ; 
+Padding: 24px 40px 24px 40px;
+border: 1px solid#6FC247 ;
+color: #6FC247;
+background-color:white ;
+margin-left: 8px;
+position: relative;
+top: 32px;
+
+
+}
+.second-heading{
+    padding: 35px;
+    text-align: center;
+}
+.second-heading h3 {
+font-weight:800;
+font-size: 32px;
+line-height:43.71px ;
+
+}
+
+.middle-section{
+    background-color: black;
+    color: white;
+width:1212px;
+Height: 456px;
+
+Padding:72px 80px 72px 80px;
+margin-top: 10px;
+}
+.grid-items{
+    display: flex;
+    flex-direction: row;
+   position: relative;
+   right: 10px;
+    margin-top: 70px;
+    padding-right: 10px;
+   
+}
+.grid-items p{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+.grid-items h4{
+    font-size: 24px;
+}
+.two{
+    position: relative;
+    right: 20px;
+  
+}
+
+
+.four{
+    position: relative;
+    left: 70px;
+  
+}
+.one{
+    position: relative;
+    right: 20px;
+  
+}
+.one h2{
+    font-size: 40px;
+
+}
+.one p{
+    font-size: 20px;
+}
+.brand-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 10px;
+margin-left: 20px;
+margin-right: 10px;
+position: relative;
+right: 10px;
+
+    
+}
+.image2, .image3, .image4, .image6, .image7, .image8, .image11, .image12, .image13{
+   
+   
+    gap: 18px;
+    
+    }
+    .image4,.image8,.image13{
+        width: 290px;
+        background-color: #F9F9F9;
+    }
+    .image4 img,.image8 img,.image13 img{
+        position: relative;
+        left: 35px;
+    }
+    .image3,.image7,.image12{
+        width: 290px;
+        background-color: #F9F9F9;
+    }
+    .image5,.image1,.image9{
+        width: 290px;
+        height: 117;
+        
+        align-items: center;
+        background-color: #F9F9F9;
+      
+       
+        
+    }
+    .image2,.image6,.image11{
+        width: 290px;
+        background-color: #F9F9F9;
+    }
+    .image5 img, .image9 img{
+        position: relative;
+        left: 35px;
+    }
+    .image1 img{
+        width: 280px;
+        align-items: center;
+        position: relative;
+        left: 6px;
+        top: 2px;
+    
+    }
+    .last-section{
+        display: grid;
+        grid-template-columns: 45% 55%;
+        gap: 30px;
+        margin-top: 80px;
+    }
+    .image-text{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        position: relative;
+        
+    }
+    .last-section img{
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .last-section-1 h4{
+font-size: 29px;
+font-weight:800 ; 
+line-height:43.71px ;
+padding-left: 50px;
+        
+
+    }
+    .last-section-1 p{
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 50px;
+        padding-right: 0;
+        
+    }
+    .last-section-2 h4,.last-section-3 h4,.last-section-4 h4{
+        font-size: 800;
+font-size: 24px;
+line-height:32.78px ;
+padding-left: 50px;
+padding-right: 30px;
+    }
+    .last-section-2 p,.last-section-3 p,.last-section-4 p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        padding-left: 50px;
+padding-right: 50px;
+    }
+    .end-btn{
+        width: 278px;
+        Height:75px;
+        border-radius:16px ; 
+        Padding: 24px 40px 24px 40px;
+        border: none;
+        background-color: #6FC247;
+        margin-right: 8px;
+        font-size: 20px;
+        font-style: bold;
+        position: relative;
+        top: 52px;
+        left: 45%;
+        color: white;
+        
+    }
+ i{
+    color: black;
+ }   
